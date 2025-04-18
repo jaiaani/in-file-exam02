@@ -28,19 +28,18 @@
 #include <unistd.h>
 
 // 🔧 Implement your logic here
+
 void	first_word(char *str)
 {
-	// TODO: Write code that prints the first word using write
-	(void) str;
+	//Write code here
+	(void)str;
 }
 
-
-#include <stdio.h>
-
+// Dont forget to addapt the main 
 int	main(int argc, char *argv[])
 {
 	if (argc != 2)
 		return (0);
-	printf("Should print the first word followed by a new line:\n");
 	first_word(argv[1]);
+	return (0);
 }
