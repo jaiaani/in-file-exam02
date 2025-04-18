@@ -45,11 +45,9 @@ void	fizzbuzz(void)
 	//Write code here
 }
 
-#include <stdio.h>
 
 int	main(void)
 {
-	printf("Run `bash test.sh` to check your logic :)");
 	fizzbuzz();
 	return (0);
 }
