@@ -22,15 +22,8 @@ int	ft_atoi(const char *str)
 	return (0); 
 }
 
-int	main(void)
+int	main(int argc, char *argv[])
 {
-	printf("Input: \"42\"        → Result: %d\n", ft_atoi("42"));
-	printf("Input: \"   -123\"    → Result: %d\n", ft_atoi("   -123"));
-	printf("Input: \"+7\"         → Result: %d\n", ft_atoi("+7"));
-	printf("Input: \"00123\"      → Result: %d\n", ft_atoi("00123"));
-	printf("Input: \"abc\"        → Result: %d\n", ft_atoi("abc"));
-	printf("Input: \"  -42abc\"   → Result: %d\n", ft_atoi("  -42abc"));
-	printf("Input: \"2147483647\" → Result: %d\n", ft_atoi("2147483647"));
-	printf("Input: \"-2147483648\"→ Result: %d\n", ft_atoi("-2147483648"));
+	(void)argc;
 	return (0);
 }
