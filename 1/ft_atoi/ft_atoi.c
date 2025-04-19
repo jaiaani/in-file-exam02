@@ -18,7 +18,8 @@
 
 int	ft_atoi(const char *str)
 {
-	return (0); // <-- Placeholder
+	(void)str;
+	return (0); 
 }
 
 int	main(void)
@@ -33,4 +34,3 @@ int	main(void)
 	printf("Input: \"-2147483648\"→ Result: %d\n", ft_atoi("-2147483648"));
 	return (0);
 }
-
